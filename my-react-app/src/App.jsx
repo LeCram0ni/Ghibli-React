@@ -1,10 +1,18 @@
 import Header from "./Header";
 import Footer from "./Footer";
 import Food from "./Food";
+import Button from "./Button";
 import ListGroup from "./components/ListGroup";
+
 import "./App.css";
 
+import { useState } from "react";
+import QuoteGenerator from "./QuoteGenerator";
+
 function App() {
+  //hook
+  const [counter, setCounter] = useState(0);
+
   let items = [
     "Moskau",
     "Istanbul",
@@ -30,10 +38,12 @@ function App() {
 
   return (
     <>
-      <Header></Header>
-      <Footer> </Footer>
-      <Food></Food>
-      <ListGroup items={items}></ListGroup>
+      <Header />
+      <QuoteGenerator></QuoteGenerator>
+
+      <ListGroup items={items} />
+
+      <Footer />
     </>
   );
 }

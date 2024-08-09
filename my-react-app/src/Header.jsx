@@ -10,7 +10,7 @@ function Header() {
       <h1>My website {text}</h1>
 
       <nav>
-        <ul>
+        <ul id="nav-ul">
           <li>
             <a href="https://www.google.de/?hl=de">Home</a>
           </li>
