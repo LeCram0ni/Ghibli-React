@@ -24,15 +24,18 @@
 @font-face {
   font-family: 'DM Sans Bold';
   font-style: normal;
-  src: url('media\DMSans-VariableFont_opsz,wght.ttf') format('truetype');
+  src: url('media/DMSans-VariableFont_opsz,wght.ttf') format('truetype');
   /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
 body {
+  font-family: "DM Sans", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: var(--bgColor) !important;
+  margin-left:var(--defaultMargin) !important;
+  margin-right:var(--defaultMargin) !important;
 }
 
 #root {
@@ -134,4 +137,38 @@ header ul li {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
   font-style: italic;
+}
+
+#description{
+ text-align: justify; 
+}
+
+#description,
+#description-bottom {
+  font-size: 3vw;
+  line-height: 135%;
+  color: white;
+  overflow: hidden;
+}
+
+
+#description>p.colored {
+  background-image: var(--backgroundBlur);
+  background-attachment: fixed;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  filter: brightness(100%) saturate(250%);
+}
+
+/*firefox text webkit background clip fix*/
+@-moz-document url-prefix() {
+  #description>p.colored {
+    background: -moz-linear-gradient(110deg, var(--ffcolorA) 0%, var(--ffcolorB) 50%, var(--ffcolorC) 70%, var(--ffcolorD) 100%);
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+    filter: brightness(100%) saturate(100%);
+  }
 }
