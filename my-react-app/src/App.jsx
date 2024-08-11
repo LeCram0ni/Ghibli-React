@@ -1,13 +1,14 @@
 import Header from "./Header";
+import MainImage from "./MainImage";
+import ShortInfo from "./ShortInfo";
+import RainbowStory from "./RainbowStory.jsx";
+import ImageGallery from "./ImageGallery";
+import ShortInfoBottom from "./ShortInfoBottom";
 import Footer from "./Footer";
-import Food from "./Food";
-import Button from "./Button";
-import ListGroup from "./components/ListGroup";
 
 import "./App.css";
 
 import { useState } from "react";
-import QuoteGenerator from "./QuoteGenerator";
 
 function App() {
   //hook
@@ -39,10 +40,11 @@ function App() {
   return (
     <>
       <Header />
-      <QuoteGenerator></QuoteGenerator>
-
-      <ListGroup items={items} />
-
+      <MainImage />
+      <ShortInfo />
+      <RainbowStory />
+      <ImageGallery />
+      <ShortInfoBottom />
       <Footer />
     </>
   );

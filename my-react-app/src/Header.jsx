@@ -7,25 +7,11 @@ function Header() {
 
   return (
     <header>
-      <h1>My website {text}</h1>
-
-      <nav>
-        <ul id="nav-ul">
-          <li>
-            <a href="https://www.google.de/?hl=de">Home</a>
-          </li>
-          <li>
-            <a href="https://www.google.de/?hl=de">About</a>
-          </li>
-          <li>
-            <a href="https://www.google.de/?hl=de">Services</a>
-          </li>
-          <li>
-            <a href="https://www.google.de/?hl=de">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <hr></hr>
+      <a href="https://www.google.de"> <img src="src\media\ghibli_logo.png" /></a>
+      <ul>
+        <a href="https://www.google.de"><li>ABC</li></a>
+        <a href="https://www.google.de"><li>DEF</li></a>
+      </ul>
     </header>
   );
 }
