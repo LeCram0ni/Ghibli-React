@@ -6,6 +6,8 @@ import ShortInfoBottom from "./ShortInfoBottom";
 import HR from "./HR";
 import Footer from "./Footer";
 
+import Card from "./Card";
+
 import "./App.css";
 
 import { useState } from "react";
@@ -17,7 +19,7 @@ function App() {
     <>
       <Header />
       <MainImage />
-
+      <Card />
       <Description />
 
       <ImageGallery />

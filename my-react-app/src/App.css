@@ -238,3 +238,22 @@ header ul li {
   width: 40%;
   margin: 0 0 100px 0;
 }
+
+
+.card {
+  border-radius: 18px !important;
+  height: 680px !important;
+  margin: 200px 0 200px 0;
+
+}
+
+.card img {
+  height: 528px;
+  width: 474px;
+  object-fit: cover;
+  border-radius: 18px !important;
+}
+
+.card-text {
+  padding: 30px;
+}
