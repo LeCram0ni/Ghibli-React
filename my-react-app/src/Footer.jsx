@@ -1,7 +1,9 @@
 function Footer() {
   return (
     <footer>
-      <p>&copy; {new Date().getFullYear()} Your Website name</p>
+      <div id="ghibliLogoBig">
+        <img src="src/media/ghibli_logo_full.png" />
+      </div>
     </footer>
   );
 }

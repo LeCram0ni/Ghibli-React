@@ -34,8 +34,8 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: var(--bgColor) !important;
-  margin-left:var(--defaultMargin) !important;
-  margin-right:var(--defaultMargin) !important;
+  margin-left: var(--defaultMargin) !important;
+  margin-right: var(--defaultMargin) !important;
 }
 
 #root {
@@ -102,7 +102,9 @@ header ul li {
   margin: 0;
 }
 
-
+.italicText {
+  font-style: italic;
+}
 
 .size-small {
   font-size: 2.2vw !important;
@@ -139,16 +141,18 @@ header ul li {
   font-style: italic;
 }
 
-#description{
- text-align: justify; 
+#description {
+  text-align: justify;
+  width: 72%;
 }
 
 #description,
 #description-bottom {
-  font-size: 3vw;
-  line-height: 135%;
+  font-size: 2.1vw;
+  line-height: 120%;
   color: white;
-  overflow: hidden;
+  text-align: justify;
+  width: 72%;
 }
 
 
@@ -160,6 +164,7 @@ header ul li {
   -webkit-background-clip: text;
   color: transparent;
   filter: brightness(100%) saturate(250%);
+  margin: 0;
 }
 
 /*firefox text webkit background clip fix*/
@@ -171,4 +176,65 @@ header ul li {
     color: transparent;
     filter: brightness(100%) saturate(100%);
   }
+}
+
+.wrapper {
+  display: flex;
+  margin: 0px;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+
+}
+
+.wrapper .carousel {
+  display: flex;
+  white-space: nowrap;
+  cursor: pointer;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  max-width: 99vw;
+}
+
+.carousel img {
+  max-height: 1000px;
+  width: 72vw;
+  object-fit: contain;
+  margin: 0;
+  transform: translate(-58.5vw, 0px);
+  border-radius: 40px;
+  border: solid var(--bgColor) 1px;
+}
+
+#toShift>img:nth-child(1),
+#toShift>img:nth-child(3) {
+  filter: brightness(50%);
+  transition: filter 600ms ease-in-out;
+}
+
+#toShift>img:nth-child(2) {
+  filter: brightness(100%);
+  transition: filter 250ms ease-in-out;
+}
+
+
+
+.hr {
+  background-color: white;
+  height: 2px;
+  width: 95%;
+  margin: 100px 0 100px 0;
+}
+
+#ghibliLogoBig {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#ghibliLogoBig>img {
+  width: 40%;
+  margin: 0 0 100px 0;
 }

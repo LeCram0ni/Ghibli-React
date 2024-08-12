@@ -1,8 +1,17 @@
 function ShortInfoBottom() {
     return (
-        <footer>
-            <p>&copy; {new Date().getFullYear()} Your Website name</p>
-        </footer>
+        <div id="description-bottom" class="dm-sans-bold">
+            <p class="white">
+                The film's atmospheric, "Ghibli Gothic" aesthetic, with its moonlit
+                seascapes and hauntingly beautiful orchestral score, creates a dreamlike
+                mood that builds to a powerful and emotional climax.
+                <br />
+                <span class="italicText">When Marnie Was There</span> is a poignant
+                exploration of memory, identity, and the bonds that transcend time,
+                making it a distinctive and memorable entry in Studio Ghibli's acclaimed
+                filmography.
+            </p>
+        </div>
     );
 }
 
