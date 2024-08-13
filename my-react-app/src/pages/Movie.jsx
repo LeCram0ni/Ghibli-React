@@ -20,22 +20,32 @@ export default function Movie() {
     }, [id]);
 
     if (!movie) {
-        return <div>Film nicht gefunden</div>;
+        return <div className="not-found">Film nicht gefunden!</div>;
     }
 
+    console.log(movie.shortinfobottom);
 
     return (
         <>
 
-            <MainImage mainimg={movie.mainimg} 
-            title={movie.title} 
-            jptitle={movie.jptitle} 
-            translation={movie.translation} 
-            year={movie.year} 
-            length={movie.length} />
-            <Description />
-            <ImageGallery />
-            <ShortInfoBottom />
+            <MainImage
+                mainimg={movie.mainimg}
+                title={movie.title}
+                jptitle={movie.jptitle}
+                translation={movie.translation}
+                year={movie.year}
+                length={movie.length}
+            />
+            <Description 
+                shortinfo={movie.shortinfo}
+                story={movie.story}
+            />
+            <ImageGallery 
+                images={movie.images}
+            />
+            <ShortInfoBottom 
+                shortinfobottom={movie.shortinfobottom}
+            />
             <HR />
 
 
@@ -47,29 +57,3 @@ export default function Movie() {
 
 };
 
-/*
-
-
-            <div className="movie-page">
-                <div className="main-image-container">
-                    <img src={movie['main-image']} alt={movie.title} className="main-image" />
-                </div>
-
-                <h1>{movie.title}</h1>
-                <h2>{movie['jp-title']} ({movie['jp-translation']})</h2>
-                <p>Jahr: {movie.year}</p>
-                <p>Länge: {movie.length}</p>
-                <p>{movie.shortinfo}</p>
-                <p>{movie.rainbowstory}</p>
-                <p>{movie['shortinfo-bottom']}</p>
-
-                <div className="gallery">
-                    {movie.images.map((imgUrl, index) => (
-                        <img key={index} src={imgUrl} alt={`Gallery image ${index + 1}`} />
-                    ))}
-                </div>
-
-                <p>Bewertung: {movie.ranking}</p>
-            </div>
-
-   */

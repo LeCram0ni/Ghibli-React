@@ -1,23 +1,41 @@
-
 [
     {
-      "id": 1,
-      "mainimg": "media/marnie020.jpg",
-      "blurimage": "media/marnie020blurred5.jpg",
-      "title": "When Marnie was There",
-      "jptitle": "思い出のマーニー",
-      "translation": "Marnie of [My] Memories",
-      "year": 2014,
-      "length": 103,
-      "shortinfo": "When Marnie Was There is a 2014 Japanese animated psychological drama film co-written and directed by Hiromasa Yonebayashi, known for his work on 'The Secret World of Arrietty.' Produced by the renowned Studio Ghibli and distributed by Toho, this film is an adaptation of Joan G. Robinson's 1967 novel of the same name.",
-      "story": "Der Regenbogen-Teil der Geschichte für Film 1. Dies kann eine spezielle Anekdote oder Information über den Film sein.",
-      "shortinfo2": "Zusätzliche kurze Informationen über Film 1, die am Ende der Seite angezeigt werden.",
-      "images": [
-        "url-to-image-1-1.jpg",
-        "url-to-image-1-2.jpg"
-      ],
-      "ranking": 4.5
-    }
+        "id": 1,
+        "mainimg": "media/marnie020.jpg",
+        "blurimage": "media/marnie020blurred5.jpg",
+        "title": "When Marnie was There",
+        "jptitle": "思い出のマーニー",
+        "translation": "Marnie of [My] Memories",
+        "year": 2014,
+        "length": 103,
+        "shortinfo": "When Marnie Was There is a 2014 Japanese animated psychological drama film co-written and directed by Hiromasa Yonebayashi, known for his work on 'The Secret World of Arrietty.' Produced by the renowned Studio Ghibli and distributed by Toho, this film is an adaptation of Joan G. Robinson's 1967 novel of the same name.",
+        "story": "The story follows Anna Sasaki, a shy and artistic young girl who is sent to stay with relatives in a small town located in the Kushiro wetlands of Hokkaido. While exploring the area, Anna discovers an old, abandoned mansion known as the Marsh House, where she encounters Marnie, a mysterious young girl. The two girls quickly form a deep and unique connection, their friendship blurring the lines between fantasy and reality. As Anna is drawn back to the Marsh House time and again, she gradually uncovers the truth about Marnie and the secrets she holds. This journey leads Anna to profound revelations about her own life, including her family and her experiences in foster care.",
+        "shortinfobottom": "The film's atmospheric, 'Ghibli Gothic' aesthetic, with its moonlit seascapes and hauntingly beautiful orchestral score, creates a dreamlike mood that builds to a powerful and emotional climax. When Marnie Was There is a poignant exploration of memory, identity, and the bonds that transcend time, making it a distinctive and memorable entry in Studio Ghibli's acclaimed filmography.",
+        "images": [
+            "/src/media/marnie028.jpg",
+            "url-to-image-1-2.jpg"
 
-  ]
-  
+            
+        ],
+        "ranking": 4.5
+    },
+    {
+        "id": 2,
+        "mainimg": "media/marnie020.jpg",
+        "blurimage": "media/marnie020blurred5.jpg",
+        "title": "When Marnie was There",
+        "jptitle": "思い出のマーニー",
+        "translation": "Marnie of [My] Memories",
+        "year": 2014,
+        "length": 103,
+        "shortinfo": "When Marnie Was There is a 2014 Japanese animated psychological drama film co-written and directed by Hiromasa Yonebayashi, known for his work on 'The Secret World of Arrietty.' Produced by the renowned Studio Ghibli and distributed by Toho, this film is an adaptation of Joan G. Robinson's 1967 novel of the same name.",
+        "story": "The story follows Anna Sasaki, a shy and artistic young girl who is sent to stay with relatives in a small town located in the Kushiro wetlands of Hokkaido. While exploring the area, Anna discovers an old, abandoned mansion known as the Marsh House, where she encounters Marnie, a mysterious young girl. The two girls quickly form a deep and unique connection, their friendship blurring the lines between fantasy and reality. As Anna is drawn back to the Marsh House time and again, she gradually uncovers the truth about Marnie and the secrets she holds. This journey leads Anna to profound revelations about her own life, including her family and her experiences in foster care.",
+        "shortinfobottom": "The film's atmospheric, 'Ghibli Gothic' aesthetic, with its moonlit seascapes and hauntingly beautiful orchestral score, creates a dreamlike mood that builds to a powerful and emotional climax.<br /> <span className='italicText'>When Marnie Was There</span> is a poignant exploration of memory, identity, and the bonds that transcend time, making it a distinctive and memorable entry in Studio Ghibli's acclaimed filmography.",
+        "images": [
+            "/src/media/marnie028.jpg",
+            "/src/media/marnie035.jpg",
+            "/src/media/marnie025.jpg"
+        ],
+        "ranking": 2
+    }
+]

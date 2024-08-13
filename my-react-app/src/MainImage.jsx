@@ -7,7 +7,7 @@ export default function MainImage({mainimg,title,jptitle,translation,year,length
             <div className="mainTitle dm-sans-bold">
                 <span>{title}</span><br />
                 <span>{jptitle}</span><br />
-                <span className="size-small">{translation}</span><br />
+                <span className="size-small italic">{translation}</span><br />
                 <span className="size-mid">{year} - {length} Min</span>
             </div>
         </div>
