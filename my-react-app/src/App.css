@@ -1,7 +1,7 @@
 :root {
   --defaultMargin: 17vw;
-  --backgroundBlur: url("media/marnie020blurred5.jpg");
-  --topImage: url("media/marnie020.jpg");
+  --backgroundBlur: url("media/marnie/marnie020blurred5.jpg");
+  --topImage: url("media/marnie/marnie020.jpg");
   --brightness: 17;
   --bgColor: rgba(var(--brightness),var(--brightness),var(--brightness), 1);
   --bgColorFade: rgba(16, 16, 16, 0);
