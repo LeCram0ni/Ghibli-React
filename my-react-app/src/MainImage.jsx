@@ -6,9 +6,9 @@ export default function MainImage({mainimg,title,jptitle,translation,year,length
             <div className="mainImage"></div>
             <div className="mainTitle dm-sans-bold">
                 <span>{title}</span><br />
-                <span>思い出のマーニー</span><br />
-                <span className="size-small">(Marnie of [My] Memories)</span><br />
-                <span className="size-mid">2014 - 103 Min</span>
+                <span>{jptitle}</span><br />
+                <span className="size-small">{translation}</span><br />
+                <span className="size-mid">{year} - {length} Min</span>
             </div>
         </div>
 

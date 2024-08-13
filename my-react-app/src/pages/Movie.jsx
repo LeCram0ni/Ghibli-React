@@ -14,7 +14,6 @@ export default function Movie() {
     const { id } = useParams();
     const [movie, setMovie] = useState(null);
 
-
     useEffect(() => {
         const movieData = movies.find(m => m.id === parseInt(id));
         setMovie(movieData);
@@ -28,11 +27,16 @@ export default function Movie() {
     return (
         <>
 
-<MainImage />
-<Description />
-<ImageGallery />       
-<ShortInfoBottom />      
-<HR />
+            <MainImage mainimg={movie.mainimg} 
+            title={movie.title} 
+            jptitle={movie.jptitle} 
+            translation={movie.translation} 
+            year={movie.year} 
+            length={movie.length} />
+            <Description />
+            <ImageGallery />
+            <ShortInfoBottom />
+            <HR />
 
 
 
