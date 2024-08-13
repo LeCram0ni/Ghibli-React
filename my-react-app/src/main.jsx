@@ -6,8 +6,6 @@ import "bootstrap/dist/css/bootstrap.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Router>
-    <App />
-    </Router>
+    <App/>
   </React.StrictMode>
 );

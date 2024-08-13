@@ -2,7 +2,8 @@
   --defaultMargin: 17vw;
   --backgroundBlur: url("media/marnie020blurred5.jpg");
   --topImage: url("media/marnie020.jpg");
-  --bgColor: rgba(16, 16, 16, 1);
+  --brightness: 17;
+  --bgColor: rgba(var(--brightness),var(--brightness),var(--brightness), 1);
   --bgColorFade: rgba(16, 16, 16, 0);
   --ffcolorA: rgba(255, 54, 89, 1);
   --ffcolorB: rgba(255, 154, 0, 1);
@@ -236,23 +237,4 @@ header ul li {
 #ghibliLogoBig>img {
   width: 40%;
   margin: 0 0 100px 0;
-}
-
-
-.card {
-  border-radius: 18px !important;
-  height: 680px !important;
-  margin: 200px 0 200px 0;
-
-}
-
-.card img {
-  height: 528px;
-  width: 474px;
-  object-fit: cover;
-  border-radius: 18px !important;
-}
-
-.card-text {
-  padding: 30px;
 }

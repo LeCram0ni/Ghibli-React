@@ -1,7 +1,7 @@
 function RainbowStory({ name }) {
     return (
 
-        <p class="colored">
+        <p className="colored">
             The story follows Anna Sasaki, a shy and artistic young girl who is sent
             to stay with relatives in a small town located in the Kushiro wetlands
             of Hokkaido. While exploring the area, Anna discovers an old, abandoned

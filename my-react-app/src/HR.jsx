@@ -1,6 +1,6 @@
 function HR() {
     return (
-        <div class="hr">
+        <div className="hr">
             <hr></hr>
         </div>
     );

@@ -1,0 +1,23 @@
+
+[
+    {
+      "id": 1,
+      "mainimg": "media/marnie020.jpg",
+      "blurimage": "media/marnie020blurred5.jpg",
+      "title": "When Marnie was There",
+      "jptitle": "思い出のマーニー",
+      "translation": "Marnie of [My] Memories",
+      "year": 2014,
+      "length": 103,
+      "shortinfo": "When Marnie Was There is a 2014 Japanese animated psychological drama film co-written and directed by Hiromasa Yonebayashi, known for his work on 'The Secret World of Arrietty.' Produced by the renowned Studio Ghibli and distributed by Toho, this film is an adaptation of Joan G. Robinson's 1967 novel of the same name.",
+      "story": "Der Regenbogen-Teil der Geschichte für Film 1. Dies kann eine spezielle Anekdote oder Information über den Film sein.",
+      "shortinfo2": "Zusätzliche kurze Informationen über Film 1, die am Ende der Seite angezeigt werden.",
+      "images": [
+        "url-to-image-1-1.jpg",
+        "url-to-image-1-2.jpg"
+      ],
+      "ranking": 4.5
+    }
+
+  ]
+  

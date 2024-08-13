@@ -1,20 +1,17 @@
-function Header() {
-  let name = null;
-  let text = "";
-  if (name != null) {
-    text = "waddup";
-  }
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+
+export default function Header() {
 
   return (
     <header>
-      <a href="https://www.google.de"> <img src="src\media\ghibli-logo.png" /></a>
+      <Link to="/"> <img src="\src\media\ghibli-logo.png" /></Link>
       <ul>
-        <a href="https://www.google.de"><li>Overview</li></a>
-        <a href="https://www.google.de"><li>About</li></a>
-        <a href="https://www.google.de"><li>Links</li></a>
+        <li><Link to="/">Overview</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/links">Links</Link></li>
       </ul>
     </header>
   );
 }
-
-export default Header;
