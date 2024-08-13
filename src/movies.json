@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "cover":"media/marnie/marnie.jpg",
-        "mainimg": "media/marnie/marnie020.jpg",
-        "blurimage": "media/marnie/marnie020blurred5.jpg",
+        "cover":"public/marnie/marnie.jpg",
+        "mainimg": "public/marnie/marnie020.jpg",
+        "blurimage": "public/marnie/marnie020blurred5.jpg",
         "title": "When Marnie was There",
         "jptitle": "思い出のマーニー",
         "translation": "Marnie of [My] Memories",
@@ -13,11 +13,11 @@
         "story": "The story follows Anna Sasaki, a shy and artistic young girl who is sent to stay with relatives in a small town located in the Kushiro wetlands of Hokkaido. While exploring the area, Anna discovers an old, abandoned mansion known as the Marsh House, where she encounters Marnie, a mysterious young girl. The two girls quickly form a deep and unique connection, their friendship blurring the lines between fantasy and reality. As Anna is drawn back to the Marsh House time and again, she gradually uncovers the truth about Marnie and the secrets she holds. This journey leads Anna to profound revelations about her own life, including her family and her experiences in foster care.",
         "shortinfobottom": "The film's atmospheric, 'Ghibli Gothic' aesthetic, with its moonlit seascapes and hauntingly beautiful orchestral score, creates a dreamlike mood that builds to a powerful and emotional climax. When Marnie Was There is a poignant exploration of memory, identity, and the bonds that transcend time, making it a distinctive and memorable entry in Studio Ghibli's acclaimed filmography.",
         "images": [
-            "/media/marnie/marnie002.jpg",
-            "/media/marnie/marnie009.jpg",
-            "/media/marnie/marnie014.jpg",
-            "/media/marnie/marnie028.jpg",
-            "/media/marnie/marnie050.jpg"
+            "/public/marnie/marnie002.jpg",
+            "/public/marnie/marnie009.jpg",
+            "/public/marnie/marnie014.jpg",
+            "/public/marnie/marnie028.jpg",
+            "/public/marnie/marnie050.jpg"
 
             
         ],
@@ -25,8 +25,8 @@
     },
     {
         "id": 2,
-        "mainimg": "media/film/",
-        "blurimage": "media/film/",
+        "mainimg": "public/film/",
+        "blurimage": "public/film/",
         "title": "bla",
         "jptitle": "matane",
         "translation": "diesdas",
@@ -36,11 +36,11 @@
         "story": "The story follows Anna Sasaki, a shy and artistic young girl who is sent to stay with relatives in a small town located in the Kushiro wetlands of Hokkaido. While exploring the area, Anna discovers an old, abandoned mansion known as the Marsh House, where she encounters Marnie, a mysterious young girl. The two girls quickly form a deep and unique connection, their friendship blurring the lines between fantasy and reality. As Anna is drawn back to the Marsh House time and again, she gradually uncovers the truth about Marnie and the secrets she holds. This journey leads Anna to profound revelations about her own life, including her family and her experiences in foster care.",
         "shortinfobottom": "The film's atmospheric, 'Ghibli Gothic' aesthetic, with its moonlit seascapes and hauntingly beautiful orchestral score, creates a dreamlike mood that builds to a powerful and emotional climax.<br /> <span className='italicText'>When Marnie Was There</span> is a poignant exploration of memory, identity, and the bonds that transcend time, making it a distinctive and memorable entry in Studio Ghibli's acclaimed filmography.",
         "images": [
-            "/media/marnie/marnie002.jpg",
-            "/media/marnie/marnie009.jpg",
-            "/media/marnie/marnie014.jpg",
-            "/media/marnie/marnie028.jpg",
-            "/media/marnie/marnie050.jpg"
+            "/public/marnie/marnie002.jpg",
+            "/public/marnie/marnie009.jpg",
+            "/public/marnie/marnie014.jpg",
+            "/public/marnie/marnie028.jpg",
+            "/public/marnie/marnie050.jpg"
         ],
         "ranking": 2
     }

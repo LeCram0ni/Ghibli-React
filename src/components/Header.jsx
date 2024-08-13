@@ -6,7 +6,7 @@ export default function Header() {
 
   return (
     <header>
-      <Link to="/"> <img src="/media/ghibli-logo.png" /></Link>
+      <Link to="/"> <img src="/public/ghibli-logo.png" /></Link>
       <ul>
         <li><Link to="/">Overview</Link></li>
         <li><Link to="/about">About</Link></li>
