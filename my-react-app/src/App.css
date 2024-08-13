@@ -46,16 +46,15 @@ body {
 
 header {
   display: flex;
-  width: 80vw;
-  margin-right: auto;
+  width: 75vw;
+  margin: auto;
   align-items: center;
 }
 
 header img {
   display: inline-block;
-  margin-top: 1vw;
+  padding:31px;
   width: 10vw;
-  margin-left: 80%;
 }
 
 header ul {

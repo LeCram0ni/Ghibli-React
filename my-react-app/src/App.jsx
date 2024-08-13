@@ -1,18 +1,16 @@
-import Header from "./Header";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import MainImage from "./MainImage";
 import Description from "./Description";
 import ImageGallery from "./ImageGallery";
 import ShortInfoBottom from "./ShortInfoBottom";
 import HR from "./HR";
-import Footer from "./Footer";
 
 import Card from "./Card";
 
 import "./App.css";
 
-import { useState } from "react";
-
-function App() {
+export default function App() {
 
 
   return (
@@ -32,6 +30,3 @@ function App() {
 
   );
 }
-
-
-export default App;

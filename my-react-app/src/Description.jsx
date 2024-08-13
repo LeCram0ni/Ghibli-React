@@ -1,7 +1,7 @@
 import ShortInfo from "./ShortInfo";
 import RainbowStory from "./RainbowStory";
 
-function Description() {
+export default function Description() {
     return (
         <>
             <div id="description" class="dm-sans-bold">
@@ -12,5 +12,3 @@ function Description() {
 
     );
 }
-
-export default Description;
