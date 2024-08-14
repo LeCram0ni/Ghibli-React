@@ -45,6 +45,10 @@ body {
   align-items: center;
 }
 
+h1{
+  color:white !important;
+}
+
 header {
   display: flex;
   width: 75vw;
@@ -71,6 +75,21 @@ header ul li {
   min-width: 12rem;
   color: white;
   list-style-type: none;
+}
+
+
+a:link {
+  text-decoration: none;
+  color:white;
+}
+
+a:visited {
+  text-decoration: none;
+  color:white;
+}
+
+a:hover{
+  color: #90d5f2;
 }
 
 

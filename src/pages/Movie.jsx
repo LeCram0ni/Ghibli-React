@@ -5,7 +5,6 @@ import MainImage from '../MainImage';
 import Description from '../Description';
 import ImageGallery from '../ImageGallery';
 import ShortInfoBottom from '../ShortInfoBottom';
-import HR from '../HR';
 
 import movies from '../movies.json';
 
@@ -46,10 +45,6 @@ export default function Movie() {
             <ShortInfoBottom 
                 shortinfobottom={movie.shortinfobottom}
             />
-            <HR />
-
-
-
 
 
         </>
