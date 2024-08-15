@@ -7,18 +7,41 @@ export default function Overview() {
 
     return (
 
-        <div className="home">
-            <h1>Übersicht aller Filme</h1>
-            <ul>
+        <div className="overview-container">
+
+            <h1>Übersicht aller Filme<div>
+                arietty
+                chihiro
+                erdsee
+                gluehwuermchen
+                kaguya
+                kiki
+                marnie
+                mohn
+                nausica
+                ponyo
+                porcorosso
+                stimme
+                totoro
+                wandelschloss
+                wind
+            </div></h1>
+            
+            <div id="overview-image-container">
+
                 {movies.map(movie => (
-                    <li key={movie.id}>
-                        <img src={movie.cover} />
-                        <Link to={`/movie/${movie.id}`}>{movie.title}</Link>
-                    </li>
+                    <div key={movie.id}>
+                        <Link to={`/movie/${movie.id}`}>
+                            <img src={movie.cover} />
+                        </Link>
+                    </div>
                 )
                 )
                 }
-            </ul>
+
+
+            </div>
+
         </div>
     );
 }
