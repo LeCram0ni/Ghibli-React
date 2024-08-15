@@ -9,23 +9,7 @@ export default function Overview() {
 
         <div className="overview-container">
 
-            <h1>Übersicht aller Filme<div>
-                arietty
-                chihiro
-                erdsee
-                gluehwuermchen
-                kaguya
-                kiki
-                marnie
-                mohn
-                nausica
-                ponyo
-                porcorosso
-                stimme
-                totoro
-                wandelschloss
-                wind
-            </div></h1>
+            <h1>Übersicht aller Filme</h1>
             
             <div id="overview-image-container">
 
