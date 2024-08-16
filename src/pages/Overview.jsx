@@ -14,8 +14,8 @@ export default function Overview() {
             <div id="overview-image-container">
 
                 {movies.map(movie => (
-                    <div key={movie.id}>
-                        <Link to={`/movie/${movie.id}`}>
+                    <div key={movie.id} className="image-wrapper">
+                        <Link to={`/movie/${movie.id}`} className="image-link">
                             <img src={movie.cover} />
                         </Link>
                     </div>
