@@ -162,6 +162,8 @@ a:hover {
   font-style: italic;
 }
 
+
+
 #description {
   text-align: justify;
   width: 72%;
@@ -198,6 +200,9 @@ a:hover {
     filter: brightness(100%) saturate(100%);
   }
 }
+
+
+
 
 .wrapper {
   display: flex;
@@ -238,10 +243,7 @@ a:hover {
   transition: filter 250ms ease-in-out;
 }
 
-
-
 .hr {
-  background-color: white;
   height: 2px;
   width: 95%;
   margin: 100px 0 100px 0;
@@ -258,7 +260,6 @@ a:hover {
   width: 40%;
   margin: 0 0 100px 0;
 }
-
 
 .not-found {
 
@@ -282,6 +283,10 @@ li {
   margin: 20px 0 50px 0;
 }
 
+
+
+
+
 #overview-image-container {
   display: flex;
   flex-wrap: wrap;
@@ -300,7 +305,6 @@ li {
   filter: brightness(90%);
 }
 
-
 .image-wrapper {
   width: 100%;
   padding: 12px;
@@ -308,7 +312,6 @@ li {
   box-sizing: border-box;
   position: relative;
 }
-
 
 .image-link img {
   display: block;
